@@ -6,7 +6,7 @@ function Header(props) {
 
     return(
         <header>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+            <nav className="navbar navbar-expand-lg navbar-light bg-primary bg-opacity-75">
                 <h1 className="navbar-brand mb-0"><Link to="/hackathon-covlab-ii-2021/" className="text-decoration-none text-reset">Science-rific Labs</Link></h1>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
