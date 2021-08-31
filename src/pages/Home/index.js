@@ -1,4 +1,5 @@
 import React from "react";
+import Sci from "./sci/science.png";
 
 function Home() {
     return(
