@@ -11,7 +11,7 @@ const styles = {
 function Home() {
     return(
         <main>
-            <div className="card border-0" style={styles.cardStyle}>
+            <div id="home" className="card border-0" style={styles.cardStyle}>
                 <img src={Sci} className="card-img-top" alt="a blue oval containing the underlined words 'Science-rific Labs'"/>
                 <div className="card-body pt-0">
                     <h2 className="card-title">Ready to do some science?</h2>
