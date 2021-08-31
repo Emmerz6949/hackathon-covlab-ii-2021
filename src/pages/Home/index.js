@@ -13,8 +13,8 @@ function Home() {
         <main>
             <div className="card border-0" style={styles.cardStyle}>
                 <img src={Sci} className="card-img-top" alt="a blue oval containing the underlined words 'Science-rific Labs'"/>
-                <div className="card-body">
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div className="card-body pt-0">
+                    <h2 className="card-title">Ready to do some science?</h2>
                 </div>
             </div>
         </main>
