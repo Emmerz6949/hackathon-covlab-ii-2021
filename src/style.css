@@ -1,0 +1,11 @@
+body {
+    background: url(https://i.pinimg.com/736x/02/04/4f/02044fa6809e4ddb72d802e596cfc014.jpg);
+}
+
+#home {
+    background: transparent;
+}
+
+.bg {
+    background: rgb(74,146,254);
+}
