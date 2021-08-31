@@ -9,3 +9,7 @@ body {
 .bg {
     background: rgb(74,146,254);
 }
+
+.btn:hover {
+    background: rgb(57, 114, 199);
+}
