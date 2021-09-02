@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Option from "../../components/Option";
 import options from "../../options.json";
 
