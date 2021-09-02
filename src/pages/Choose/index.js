@@ -3,6 +3,11 @@ import Option from "../../components/Option";
 import options from "../../options.json";
 
 class Choose extends Component {
+
+    state = {
+        options
+    };
+
     render() {
         return(
             <main>
