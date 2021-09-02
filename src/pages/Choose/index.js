@@ -1,4 +1,5 @@
 import React from "react";
+import Option from "../../components/Option";
 
 function Choose() {
     return(
