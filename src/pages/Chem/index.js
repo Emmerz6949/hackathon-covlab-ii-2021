@@ -22,7 +22,7 @@ function Chem() {
                 </p>
                 <img src={Pink} className="pb-3 bg" style={styles.imgStyle} alt="a flask containing a pink solution" />
                 <p className="fw-bold">
-                    Now let's try heating the solution!
+                    Now let's try heating the solution using the hot plate!
                 </p>
             </div>
         </main>
