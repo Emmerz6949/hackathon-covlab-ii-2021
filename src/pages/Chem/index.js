@@ -1,4 +1,6 @@
 import React from 'react';
+import Pink from './flasks/pinkSolutionFlask.png';
+import Clear from './flasks/clearSolutionFlask.png';
 
 const styles = {
     divStyle: {
