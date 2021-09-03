@@ -1,6 +1,7 @@
 import React from 'react';
 import Pink from './flasks/pinkSolutionFlask.png';
 import Clear from './flasks/clearSolutionFlask.png';
+import PinkOff from './flasks/pinkSolutionFlaskOffPlate.png';
 
 const styles = {
     divStyle: {
@@ -24,6 +25,7 @@ function Chem() {
                 <p className="fw-bold">
                     Now let's try heating the solution using the hot plate!
                 </p>
+                <img src={PinkOff} className="bg" style={styles.imgStyle} alt="a flask containing a pink solution sitting on a hot plat that is turned off" />
             </div>
         </main>
     );
