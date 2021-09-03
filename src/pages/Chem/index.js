@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import Pink from './flasks/pinkSolutionFlask.png';
 import Clear from './flasks/clearSolutionFlask.png';
 import PinkOff from './flasks/pinkSolutionFlaskOffPlate.png';
