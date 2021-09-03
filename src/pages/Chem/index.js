@@ -13,6 +13,12 @@ const styles = {
 };
 
 class Chem extends Component {
+
+    state = {
+        hotPlate: false,
+        heated: false
+    }
+
     render() {
         return(
             <main>
