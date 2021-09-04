@@ -32,6 +32,7 @@ class Chem extends Component {
                     <p className="fw-bold">
                         Now let's try heating the solution using the hot plate!
                     </p>
+                    <h5 className="btn fs-5 border-dark border-3 rounded-pill bg">Continue</h5>
                 </div>
             </main>
         );
