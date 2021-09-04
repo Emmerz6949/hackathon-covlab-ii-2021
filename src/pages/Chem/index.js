@@ -31,11 +31,13 @@ class Chem extends Component {
                         This expermint utilizes a hot plate, and a solution made up of 500ml of water, a drop of concentrated ammonia,
                          and a few drops of phenolphthalein indicator. At room temperature the solution will be pink due to the pH of the concentrated ammonia.
                     </p>
-                    <img src={Pink} className="pb-3 bg" style={styles.imgStyle} alt="a flask containing a pink solution" />
-                    <p className="fw-bold">
-                        Now let's try heating the solution using the hot plate!
-                    </p>
-                    <h5 className="btn fs-5 border-dark border-3 rounded-pill bg">Continue</h5>
+                    <div>
+                        <img src={Pink} className="pb-3 bg" style={styles.imgStyle} alt="a flask containing a pink solution" />
+                        <p className="fw-bold">
+                            Now let's try heating the solution using the hot plate!
+                        </p>
+                        <h5 className="btn fs-5 border-dark border-3 rounded-pill bg">Continue</h5>
+                    </div>
                 </div>
             </main>
         );
