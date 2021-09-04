@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Pink from './flasks/pinkSolutionFlask.png';
 import Clear from './flasks/clearSolutionFlask.png';
 import PinkOff from './flasks/pinkSolutionFlaskOffPlate.png';
+import ClearOff from './flasks/clearSolutionFlaskOffPlate.png';
+import PinkOn from './flasks/pinkSolutionFlaskOnPlate.png';
+import ClearOn from './flasks/clearSolutionFlaskOnPlate.png';
 
 const styles = {
     divStyle: {
