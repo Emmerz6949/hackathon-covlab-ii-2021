@@ -32,7 +32,6 @@ class Chem extends Component {
                     <p className="fw-bold">
                         Now let's try heating the solution using the hot plate!
                     </p>
-                    <img src={PinkOff} className="bg" style={styles.imgStyle} alt="a flask containing a pink solution sitting on a hot plat that is turned off" />
                 </div>
             </main>
         );
