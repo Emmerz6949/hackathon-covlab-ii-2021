@@ -21,7 +21,8 @@ class Chem extends Component {
 
     state = {
         hotPlate: false,
-        heated: false
+        heated: false,
+        steps
     }
 
     render() {
