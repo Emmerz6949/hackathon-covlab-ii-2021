@@ -5,6 +5,8 @@ import PinkOff from './flasks/pinkSolutionFlaskOffPlate.png';
 import ClearOff from './flasks/clearSolutionFlaskOffPlate.png';
 import PinkOn from './flasks/pinkSolutionFlaskOnPlate.png';
 import ClearOn from './flasks/clearSolutionFlaskOnPlate.png';
+import Step from '../../components/Step';
+import steps from '../../steps.json';
 
 const styles = {
     divStyle: {
