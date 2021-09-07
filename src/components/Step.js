@@ -7,7 +7,7 @@ function Step(props) {
             <p className="fw-bold">
                 {props.pText}
             </p>
-            <h5 className="btn fs-5 border-dark border-3 rounded-pill bg">{props.btnText}</h5>
+            <h5 className="btn fs-5 border-dark border-3 rounded-pill bg" onClick={props.handleContinue}>{props.btnText}</h5>
         </div>
     );
 }
