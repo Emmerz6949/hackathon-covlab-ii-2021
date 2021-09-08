@@ -22,6 +22,7 @@ class Chem extends Component {
     state = {
         hotPlate: false,
         heated: false,
+        pink: true,
         steps
     }
 
