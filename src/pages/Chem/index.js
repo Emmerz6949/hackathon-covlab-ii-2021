@@ -40,7 +40,7 @@ class Chem extends Component {
     }
 
     renderStep = () => {
-        if (this.state.hotPlate === false && this.state.heated === false) {
+        if (this.state.hotPlate === false && this.state.heated === false && this.state.pink === true) {
             return(
                 <Step
                     imgSrc={Pink}
@@ -52,7 +52,7 @@ class Chem extends Component {
                 />
             );
         }
-        else if (this.state.hotPlate === true && this.state.heated === false) {
+        else if (this.state.hotPlate === true && this.state.heated === false && this.state.pink === true) {
             return(
                 <Step
                     imgSrc={PinkOff}
