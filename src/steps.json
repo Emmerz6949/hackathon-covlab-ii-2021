@@ -2,6 +2,26 @@
     {
         "id": 1,
         "altText": "a flask containing a pink solution",
-        "pText": "Now let's try heating the solution using the hot plate!"
+        "pText": "Let's try heating the solution using a hot plate!"
+    },
+    {
+        "id": 2,
+        "altText": "a flask containing a pink solution sitting on a hot plate",
+        "pText": "Press the power button to turn on the hot plate."
+    },
+    {
+        "id": 3,
+        "altText": "a flask containing a clear solution sitting on a hot plate",
+        "pText": "Wow! Heating it up turned the color of the solution from pink to clear! Don't forget to turn off the hot plate."
+    },
+    {
+        "id": 4,
+        "altText":"a flask containing a clear solution",
+        "pText": "Now lets wait for it the clear solution to cool off"
+    },
+    {
+        "id": 5,
+        "altText":"a flask containing a pink solution",
+        "pText": "Woah, it turned pink again now that it's back to room temperature!"
     }
 ]
