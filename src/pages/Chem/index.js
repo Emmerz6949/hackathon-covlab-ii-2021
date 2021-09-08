@@ -39,6 +39,12 @@ class Chem extends Component {
         this.setState({ pink: true });
     }
 
+    handleContinue1Point5 = () => {
+        this.setState({ hotPlate: true });
+        this.setState({ heated: true });
+        this.setState({ pink: false });
+    }
+
     renderStep = () => {
         if (this.state.hotPlate === false && this.state.heated === false && this.state.pink === true) {
             return(
