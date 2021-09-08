@@ -25,6 +25,11 @@ class Chem extends Component {
         steps
     }
 
+    handleContinue0 = () => {
+        this.setState({ hotPlate: true });
+        this.setState({ heated: false });
+    }
+
     render() {
         return(
             <main>
