@@ -30,6 +30,21 @@ class Chem extends Component {
         this.setState({ heated: false });
     }
 
+    renderStep = () => {
+        if (this.state.hotPlate === false && this.state.heated === false) {
+            return(
+                <Step
+                    imgSrc={Pink}
+                    imgStylin={styles.imgStyle}
+                    altText={steps[0].altText}
+                    pText={steps[0].pText}
+                    handleContinue={this.handleContinue0}
+                    btnText="Continue"
+                />
+            );
+        }
+    }
+
     render() {
         return(
             <main>
