@@ -7,6 +7,7 @@ import PinkOn from './flasks/pinkSolutionFlaskOnPlate.png';
 import ClearOn from './flasks/clearSolutionFlaskOnPlate.png';
 import Step from '../../components/Step';
 import steps from '../../steps.json';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const styles = {
     divStyle: {
