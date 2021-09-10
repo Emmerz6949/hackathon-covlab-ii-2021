@@ -67,7 +67,18 @@ class Chem extends Component {
     }
 
     renderStep = () => {
-        if (this.state.hotPlate === false && this.state.heated === false && this.state.pink === true) {
+        if (this.state.cooled === true) {
+            return(
+                <Step
+                    imgSrc={Pink}
+                    imgStylin={styles.imgStyle}
+                    altText={steps[4].altText}
+                    pText={steps[4].pText}
+                    btnText={<Link to="/hackathon-covlab-ii-2021/chemistry-result" className="text-decoration-none text-reset">Continue</Link>}
+                />
+            );
+        }
+        else if (this.state.hotPlate === false && this.state.heated === false && this.state.pink === true) {
             return(
                 <Step
                     imgSrc={Pink}
