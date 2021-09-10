@@ -24,6 +24,7 @@ class Chem extends Component {
         hotPlate: false,
         heated: false,
         pink: true,
+        cooled: false,
         steps
     }
 
