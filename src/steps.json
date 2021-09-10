@@ -17,11 +17,11 @@
     {
         "id": 4,
         "altText":"a flask containing a clear solution",
-        "pText": "Now lets wait for it the clear solution to cool off."
+        "pText": "Now let's wait for the solution to cool off."
     },
     {
         "id": 5,
         "altText":"a flask containing a pink solution",
-        "pText": "Woah, it turned pink again now that it's back to room temperature!"
+        "pText": "Woah! The solution turned pink again, now that it's back to room temperature!"
     }
 ]
