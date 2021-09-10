@@ -106,6 +106,18 @@ class Chem extends Component {
                 />
             );
         }
+        else if (this.state.hotPlate === true && this.state.heated === false && this.state.pink === false) {
+            return(
+                <Step
+                    imgSrc={ClearOff}
+                    imgStylin={styles.imgStyle}
+                    altText={steps[2].altText}
+                    pText={steps[2].pText}
+                    handleContinue={this.handleContinue2Point5}
+                    btnText={"Continue"}
+                />
+            );
+        }
     }
 
     render() {
