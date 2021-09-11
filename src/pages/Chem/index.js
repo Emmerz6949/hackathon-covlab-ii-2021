@@ -159,7 +159,7 @@ class Chem extends Component {
                     <h2 className="text-decoration-underline">Chemistry Experiment</h2>
                     <p className="fw-bold">
                         This experiment utilizes a hot plate, and a solution made up of 500ml of water, a drop of concentrated ammonia,
-                         and a few drops of phenolphthalein indicator. At room temperature the solution will be pink due to the pH of the concentrated ammonia.
+                         and a few drops of phenolphthalein. At room temperature the solution will be pink due to the pH of the concentrated ammonia.
                     </p>
                     {this.renderStep()}
                 </div>
