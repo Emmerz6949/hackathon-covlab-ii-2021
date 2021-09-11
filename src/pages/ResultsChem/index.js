@@ -35,6 +35,9 @@ function ResultsChem() {
                         pH of the solution to raise towards alkaline, which in turn changes the color that the phenolphthalein indicates from 
                         clear back to pink.
                 </p>
+                <img src={Pink} className="pb-3 px-2 bg" style={styles.imgStyle} alt="a flask containing a pink solution" />
+                <i class="fs-3 p-3 bi bi-arrow-left-right"></i>
+                <img src={Clear} className="pb-3 px-2 bg" style={styles.imgStyle} alt="a flask containing a clear solution" />
             </div>
         </main>
     );
