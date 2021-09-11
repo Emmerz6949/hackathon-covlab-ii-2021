@@ -39,6 +39,10 @@ function ResultsChem() {
                 <img src={Pink} className="pb-3 px-2 bg" style={styles.imgStyle} alt="a flask containing a pink solution" />
                 <i class="fs-3 p-3 bi bi-arrow-left-right"></i>
                 <img src={Clear} className="pb-3 px-2 bg" style={styles.imgStyle} alt="a flask containing a clear solution" />
+                <div>
+                    <h4 className="btn fs-4 border-dark border-3 rounded-pill bg mt-4"><Link to="/hackathon-covlab-ii-2021/" className="text-decoration-none text-reset">Home</Link></h4>
+                </div>
+                <p className="fst-italic mt-5">Resources: <a className="text-dark" href="https://sciencenotes.org/hot-and-cold-color-change-chemistry-demonstration/">https://sciencenotes.org/hot-and-cold-color-change-chemistry-demonstration/</a></p>
             </div>
         </main>
     );
