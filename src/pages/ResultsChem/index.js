@@ -1,10 +1,14 @@
 import React from "react";
 import Pink from '../Chem/flasks/pinkSolutionFlask.png';
 import Clear from '../Chem/flasks/clearSolutionFlask.png';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const styles = {
     divStyle: {
         width: "50%"
+    },
+    imgStyle: {
+        width: "15%"
     }
 };
 
