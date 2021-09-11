@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Pink from '../Chem/flasks/pinkSolutionFlask.png';
 import Clear from '../Chem/flasks/clearSolutionFlask.png';
 import 'bootstrap-icons/font/bootstrap-icons.css';
