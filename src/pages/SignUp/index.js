@@ -24,10 +24,10 @@ function SignUp() {
                         <label for="password-input" className="fs-5">Password</label>
                         <input type="password" className="form-control mx-auto" id="password-input" placeholder="Password" style={styles.inputStyle}/>
                     </div>
-                    <h5 className="btn fs-5 border-dark border-3 rounded-pill bg mt-3">Sign Up</h5>
+                    <h5 className="btn fs-5 border-dark border-3 rounded-pill bg mt-3"><Link to="/science-rific-labs/login" className="text-decoration-none text-reset">Sign Up</Link></h5>
                 </form>
                 <h5>or</h5>
-                <h5 className="btn fs-5 border-dark border-3 rounded-pill bg">Login</h5>
+                <h5 className="btn fs-5 border-dark border-3 rounded-pill bg"><Link to="/science-rific-labs/login" className="text-decoration-none text-reset">Login</Link></h5>
             </div>
         </main>
     );
