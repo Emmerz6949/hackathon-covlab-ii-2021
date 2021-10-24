@@ -18,7 +18,7 @@ function Home() {
                 <div className="card-body pt-0">
                     <h2 className="card-title btn fs-2 border-dark border-3 rounded-pill bg me-2"><Link to="/science-rific-labs/sign-up" className="text-decoration-none text-reset">Sign Up</Link></h2>
                     <h2 className="card-title btn fs-2 border-dark border-3 rounded-pill bg me-2"><Link to="/science-rific-labs/login" className="text-decoration-none text-reset">Login</Link></h2>
-                    <h2 className="card-title btn fs-2 border-dark border-3 rounded-pill bg"><Link to="/science-rific-labs/choose" className="text-decoration-none text-reset">Let's Get Started!</Link></h2>
+                    <h2 className="card-title btn fs-2 border-dark border-3 rounded-pill bg"><Link to="/science-rific-labs/choose" className="text-decoration-none text-reset">Continue as Guest</Link></h2>
                 </div>
             </div>
         </main>
