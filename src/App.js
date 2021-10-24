@@ -16,6 +16,7 @@ function App() {
         <Header />
         <Route exact path="/science-rific-labs/" component={Home} />
         <Route exact path="/science-rific-labs/sign-up" component={SignUp} />
+        <Route exact path="/science-rific-labs/login" component={Login} />
         <Route exact path="/science-rific-labs/choose" component={Choose} />
         <Route exact path="/science-rific-labs/chemistry" component={Chem} />
         <Route exact path="/science-rific-labs/chemistry-result" component={ResultsChem} />
