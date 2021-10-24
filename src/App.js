@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Header from './components/Header';
 import Home from './pages/Home';
+import SignUp from './pages/SignUp';
 import Choose from './pages/Choose';
 import Chem from './pages/Chem';
 import ResultsChem from './pages/ResultsChem';
