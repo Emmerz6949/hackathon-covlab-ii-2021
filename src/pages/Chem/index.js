@@ -74,7 +74,7 @@ class Chem extends Component {
                     imgStylin={styles.imgStyle}
                     altText={steps[4].altText}
                     pText={steps[4].pText}
-                    btnText={<Link to="/hackathon-covlab-ii-2021/chemistry-result" className="text-decoration-none text-reset">Continue</Link>}
+                    btnText={<Link to="/science-rific-labs/chemistry-result" className="text-decoration-none text-reset">Continue</Link>}
                 />
             );
         }

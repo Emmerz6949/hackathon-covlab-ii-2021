@@ -2,16 +2,16 @@
     {
         "id": 1,
         "text": "Chemistry",
-        "link": "/hackathon-covlab-ii-2021/chemistry"
+        "link": "/science-rific-labs/chemistry"
     },
     {
         "id": 2,
         "text": "Biology",
-        "link": "/hackathon-covlab-ii-2021/biology"
+        "link": "/science-rific-labs/biology"
     },
     {
         "id": 3,
         "text": "Physics",
-        "link": "/hackathon-covlab-ii-2021/physics"
+        "link": "/science-rific-labs/physics"
     }
 ]

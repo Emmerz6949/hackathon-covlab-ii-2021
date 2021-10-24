@@ -12,10 +12,10 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Route exact path="/hackathon-covlab-ii-2021/" component={Home} />
-        <Route exact path="/hackathon-covlab-ii-2021/choose" component={Choose} />
-        <Route exact path="/hackathon-covlab-ii-2021/chemistry" component={Chem} />
-        <Route exact path="/hackathon-covlab-ii-2021/chemistry-result" component={ResultsChem} />
+        <Route exact path="/science-rific-labs/" component={Home} />
+        <Route exact path="/science-rific-labs/choose" component={Choose} />
+        <Route exact path="/science-rific-labs/chemistry" component={Chem} />
+        <Route exact path="/science-rific-labs/chemistry-result" component={ResultsChem} />
       </div>
     </Router>
   );
